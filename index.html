@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f88cb0b540.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Images/logo.png" class="logo">
+    
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#Certifications">Certifications</a></li>
+                    <li> <a href="#portfolio">Projects</a></li>
+                    <li> <a href="#contact">Contact </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Personal Profile</p>
+                <h1>Hello, I'm <span>Tripura</span></h1>
+            </div>
+        </div>
+    </div>
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/6.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="paragraph">  Seeking a challenging position as an entry level engineer with a progressive organization that provides an
+                        opportunity to get the most out of my technical skills and knowledge in the field of Information Technology
+                        Engineering. As well as an opportunity to hone the other skills which have been developed over my other extra-curicular activities</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML CSS JS</span></li>
+                                <li><span>PHP</span></li>
+                                <li><span>Python</span></li>
+                                <li><span>JAVA</span></li>
+                                <li><span>Data Structures &Alogrithms</span></li>
+                                <li><span>Linux</span></li>
+                                <li><span>Operating Systems</span></li>
+                                <li><span>Computer Networking</span></li>
+                                <li><span>SQL</span></li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id ="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>B.Tech in Information Technlogy <br> Anil Neerukonda Institute of Technology and Sciences</li>
+                                <li><span>2017-2019</span><br>Intermediate from Sasi Junior College For Girls</li>
+                                <li><span>2016-2017</span><br>10TH from Sri Chaitanya Techno School</li>
+                                
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>My Portfolio Website</span></li>
+                                <li><span>Facial Emotion Recognition System</span></li>
+                                <li><span>Desktop Assistence</span></li>
+                                <li><span>Bus Reservation System</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>Code Caze</span></li>
+                                <li><span>HackerRank-Python,SQL</span></li>
+                                <li><span>Linux</span></li>
+                                <li><span>Sololearn-Java,Python</span></li>
+                                <li><span>NPTEL-OS,DBMS</span></li>
+                            </ul>
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="Certifications">
+        <div class="container">
+            <h1 class=sub-title>My Certifications</h1>
+            <div class="certificates-list">
+                
+                <div>
+                    
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Code Caze</h2>
+                    <p>It is an coding challenge which is conducted by coding ninjas coding platform</p>
+                    <a href="https://drive.google.com/file/d/1HdIwfGDARbJhlj-EUx8lmQYM2pAwhpqP/view?usp=drive_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>It is an online coding challenge,which is conduced by HackerRank, which contains two coding questions</p>
+                    <a href="https://www.hackerrank.com/certificates/9555a9dc4508"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <p>It is an online challenge,which is conduced by HackerRank, which contains two SQL qurries</p>
+                    <a href="https://www.hackerrank.com/certificates/1b953acda0cd"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               
+                <div>
+                    <i class="fa-brands fa-linux"></i>
+                    <h2>Linux</h2>
+                    <p>It is a ren days course,after completion of the course ,it is run by a private organization</p>
+                    <a href="https://drive.google.com/file/d/1zMwUFtt2oHtAv4mbb8GuvQUfGpOHvWDu/view?usp=drive_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class=sub-title>My Work</h1>
+            <div class="projects-list">
+                <div class="projects">
+                    <img src="./Images/proj0.png" >
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This is a personal portfolio website that
+                             gives information about me.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="./Images/proj1.jpg" >
+                    <div class="layer">
+                        <h3>Facial Emotion Recognition System</h3>
+                        <p>This is an emotion detection system through which it can detect the face and predict the emotion.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="./Images/proj2.jpg" >
+                    <div class="layer">
+                        <h3>Desktop Assistence</h3>
+                        <p>It is an desktop Assistence Sytem ,it can assist to manage our desktop.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="./Images/proj3.jpg" >
+                    <div class="layer">
+                        <h3>Bus Reservation System</h3>
+                        <p>This is a Bus Reservation Website though which we can book tickets.</p>
+                        <a href="http://webtech333.000webhostapp.com"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See Moree!</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Let's Connect!</h1>
+                    <p><i class="fa-solid fa-share"></i>saitripura870@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>8523865818</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/tripura.setti/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/tripura-kappaganthula-60160223b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/__tripura__k__/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    </div>
+                    <a href="./Images/Sai's Resume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Tripura.<i class="fa-sharp fa-solid fa-heart"></i></p>
+        </div>
+        
+
+    </div>
+    
+    
+        
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>  
+   <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+   </script>
+   
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyhCIhsQbhIkz69dU3hYPwAJo12HQJUq52gJSgv8ix023T-03p2Ex30uRqk4Hv0AaMj/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
